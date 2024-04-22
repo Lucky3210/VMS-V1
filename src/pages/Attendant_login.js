@@ -9,10 +9,10 @@ const Attendant_login = () => {
         <img src={nigcomsatlogo} alt='Nigcomsat Logo' />
       </div>
         <div>
-            <p>Enter Attendant Security Key</p>
+            <p>Enter Attendant Login</p>
         </div>
       <form>
-        <input type='tel' name='id' placeholder='id'/> <br />
+        <input type='text' name='id' placeholder='id'/> <br />
         <input type='password' name='key' placeholder='password'/>
         <input type='submit' value='Log in'/>
       </form>

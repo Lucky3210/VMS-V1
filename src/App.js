@@ -7,16 +7,15 @@ import Generic_dashboard from './pages/Generic_dashboard';
 function App() {
   return (
     <div className="App">
-
-      <Attendant_login />
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route element={Generic_dashboard} path='/Home'/>
-          <Route element={Attendant_login} path='/login' />
+          <Route path='/login' element={<Attendant_login />} />
+          <Route path="/" element={<Generic_dashboard />} exact/>
+
         </Routes>
-      </BrowserRouter> */}
-      
+      </BrowserRouter>
     </div>
+    
   ); 
 }
 
