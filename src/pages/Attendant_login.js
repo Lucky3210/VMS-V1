@@ -12,7 +12,8 @@ const Attendant_login = () => {
             <p>Enter Attendant Security Key</p>
         </div>
       <form>
-        <input type='password' name='key' placeholder='security key'/> <br />
+        <input type='tel' name='id' placeholder='id'/> <br />
+        <input type='password' name='key' placeholder='password'/>
         <input type='submit' value='Log in'/>
       </form>
     </div>

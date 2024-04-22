@@ -3,7 +3,7 @@ import Header from '../components/Header'
 
 const Generic_dashboard = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [formData, setFormData] = useState({
     firstname: '', lastname: '', phone: null, reason: '', host: '', department: 'Marketing', email: '', organization: ''
   });
